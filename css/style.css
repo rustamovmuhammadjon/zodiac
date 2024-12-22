@@ -126,3 +126,79 @@
     color: var(--black);
     border: 2px solid var(--black);
 }
+.forecast-today {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    line-height: 72px;
+}
+.hook-text {
+    max-width: 796px;
+    width: 100%;
+    margin: 24px auto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+}
+#zodiac-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 12px;
+    max-width: 1084px;
+    width: 100%;
+    margin: 42px auto;
+}
+.zodiac-content {
+    width: 262px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid #99999952;
+    border-radius: 12px;
+}
+.zodiac-content__image {
+    width: 78px;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zodiac-content > div {
+    width: 225px;
+}
+.zodiac-content > div > h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    color: var(--black);
+}
+.zodiac-content > div > p {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.04px;
+    text-align: center;
+    color: var(--black);
+}
+.zodiac-content > a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--grey);
+    text-decoration: none;
+    gap: 11.5px;
+}
+.zodiac-content > a > i {
+    margin-top: 5px;
+}
+footer {
+    border-top: 2px solid #0505053D;
+    padding-top: 24px;
+}
