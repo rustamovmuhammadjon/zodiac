@@ -1,76 +1,4 @@
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter_18pt-Regular.woff') format('woff');
-    font-weight: 400;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter_18pt-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-display: swap;
-}
-:root {
-    --black: #1A1A1A;
-    --grey: #99999999;
-    --white: #FFFFFF;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-.container {
-    max-width: 100%;
-    width: 1200px;
-    margin: 0 auto;
-}
-.navbar {
-    width: 100%;
-    height: 102px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo {
-    width: 102px;
-    height: 29px;
-}
-.navbar > ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    gap: 42px;
-}
-.navbar > ul > li:last-child {
-    width: 138px;
-    height: 47px;
-    background-color: var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 8px;
-    margin-left: 129px;
-}
-.navbar > ul > li:last-child > a {
-    color: var(--white);
-    font-weight: 600;
-}
-#active {
-    font-weight: 600;
-}
-.navbar > ul > li > a {
-    color: var(--black);
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 16px;
-}
 #name-of-the-site {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 598px;
     margin-top: 60px;
@@ -80,10 +8,7 @@
 }
 .header-box {
     width: 701px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .header-box > h1 {
     font-weight: 700;
@@ -95,9 +20,6 @@
 .header-box > p {
     max-width: 551px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 500;
     font-size: 28px;
     text-align: center;
@@ -155,10 +77,7 @@
 .zodiac-content {
     width: 262px;
     height: 320px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 12px;
     border: 2px solid #99999952;
     border-radius: 12px;
@@ -166,9 +85,6 @@
 .zodiac-content__image {
     width: 78px;
     height: 78px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .zodiac-content > div {
     width: 225px;
@@ -201,9 +117,7 @@
     margin-top: 5px;
 }
 #calculate-date {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 42px;
 }
 #calculate-date > h3 {
@@ -254,48 +168,4 @@
     padding: 24px;
     border: none;
     cursor: pointer;
-}
-footer {
-    margin-top: 120px;
-    border-top: 2px solid var(--black);
-    padding-top: 24px;
-}
-.dropdown {
-    margin: 56px auto;
-    width: 162px;
-    position: relative;
-}
-.dropdown__btn {
-    width: 162px;
-    height: 43px;
-    background-color: var(--white);
-    color: var(--black);
-    border: 1px solid var(--black);
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19.2px;
-    text-align: center;
-    cursor: pointer;
-}
-.dropdown__dark {
-    position: absolute;
-    display: block;
-}
-.dropdown__light {
-    background-color: var(--white);
-    color: var(--black);
-    position: absolute;
-    top: 44px;
-    display: none;
-}
-.license {
-    font-weight: 400;
-    font-size: 13.5px;
-    line-height: 19px;
-    letter-spacing: 0.1px;
-    text-align: center;
-    margin-top: 159px;
-    margin-bottom: 28px;
-    color: var(--black);
 }
