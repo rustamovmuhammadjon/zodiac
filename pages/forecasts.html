@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../icons/css/all.min.css">
     <link rel="stylesheet" href="../icons/js/all.min.js">
     <link rel="stylesheet" href="../css/navbarstyle.css">
+    <link rel="stylesheet" href="../css/forecasts.css">
 </head>
 <body>
     <header>
@@ -25,7 +26,39 @@
         </div>
     </header>
     <main>
-
+        <div class="container">
+            <section class="flex-center" id="zodiac-info-section">
+                <div class="zodiac-image flex-center">
+                    <img src="../images/aries.png" alt="aries">
+                </div>
+                <h2 class="zodiac-name">Овен</h2>
+                <article class="flex-center">
+                    <div class="zodiac-section__date">
+                        <button type="button" class="zodiac-section__btn">Сегодня</button>
+                        <button type="button" class="zodiac-section__btn" id="active-btn">Неделя</button>
+                        <button type="button" class="zodiac-section__btn">Месяц</button>
+                        <button type="button" class="zodiac-section__btn">Год 2024</button>
+                    </div>
+                    <p class="zodiac-section__text">
+                        У Овнов первая половина недели будет напряженной, 
+                        с возможными трудностями во взаимоотношениях с властями и законом. 
+                        Если вы водите автомобиль, увеличивается вероятность нарушений ПДД и штрафов. 
+                        Не лучшее время для судебных разбирательств, также могут возникнуть проблемы 
+                        в учебе и турпоездках.
+                    </p>
+                    <p class="zodiac-section__text">
+                        Во второй половине недели ситуация значительно улучшится. 
+                        Поставленные планы будут выполняться с уверенностью. 
+                        Вы можете почувствовать интуитивное предвидение, и многие идеи окажутся верными. 
+                        Особенно успешно будут действовать те, кто умеет избегать лишнего внимания 
+                        и использовать тайную поддержку влиятельных лиц.</p>
+                </article>
+            </section>
+            <div class="controller flex">
+                <button class="flex-center"><i class="fa-solid fa-chevron-left"></i>Предыдущий знак</button>
+                <button class="flex-center">Следующий знак<i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="container">
