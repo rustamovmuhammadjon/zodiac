@@ -1,6 +1,6 @@
 let dark_mode = document.querySelector('.dropdown__dark');
 let light_mode = document.querySelector('.dropdown__light');
-let logo = document.querySelector('.logo');
+let change_img_color = document.querySelectorAll('.change-color');
 let body = document.querySelector('body');
 
 dark_mode.addEventListener('click', ()=>{
@@ -9,7 +9,9 @@ dark_mode.addEventListener('click', ()=>{
     dark_mode.style.display = 'none';
     light_mode.style.top = '0';
 
-    logo.style.filter = 'hue-rotate(180deg)';
+    change_img_color.forEach( e => {
+        e.style.filter = 'invert(1)';
+    });
 
     body.style.backgroundColor = '#050505';
 
@@ -20,6 +22,10 @@ dark_mode.addEventListener('click', ()=>{
 light_mode.addEventListener('click', ()=>{
     dark_mode.style.display = 'block';
     light_mode.style.display = 'none'
+
+    change_img_color.forEach( e => {
+        e.style.filter = 'invert(0)';
+    });
 
     body.style.backgroundColor = 'white';
 
