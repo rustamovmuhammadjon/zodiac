@@ -29,7 +29,7 @@
         <div class="container">
             <section class="flex-center" id="zodiac-info-section">
                 <div class="zodiac-image flex-center">
-                    <img class="change-color" src="../images/aries.svg" alt="aries">
+                    <img class="change-color change-img" src="../images/aries.svg" alt="aries">
                 </div>
                 <h2 class="zodiac-name">Овен</h2>
                 <article class="flex-center">
@@ -39,24 +39,13 @@
                         <button type="button" class="zodiac-section__btn month-btn">Месяц</button>
                         <button type="button" class="zodiac-section__btn year-btn">Год 2024</button>
                     </div>
-                    <p class="zodiac-section__text">
-                        У Овнов первая половина недели будет напряженной, 
-                        с возможными трудностями во взаимоотношениях с властями и законом. 
-                        Если вы водите автомобиль, увеличивается вероятность нарушений ПДД и штрафов. 
-                        Не лучшее время для судебных разбирательств, также могут возникнуть проблемы 
-                        в учебе и турпоездках.
-                    </p>
-                    <p class="zodiac-section__text">
-                        Во второй половине недели ситуация значительно улучшится. 
-                        Поставленные планы будут выполняться с уверенностью. 
-                        Вы можете почувствовать интуитивное предвидение, и многие идеи окажутся верными. 
-                        Особенно успешно будут действовать те, кто умеет избегать лишнего внимания 
-                        и использовать тайную поддержку влиятельных лиц.</p>
+                    <p class="zodiac-section__text">Эта неделя обещает Овнам прогресс и новые горизонты. Работа принесет успехи, но ответственность возрастет. В середине недели уделите внимание личной жизни и общению с близкими.</p>
+                    <p class="zodiac-section__text">Финансовое положение будет стабильным, но избегайте лишних расходов. Конец недели подходит для планирования и начала новых проектов. Не забывайте отдыхать и заботиться о здоровье, чтобы сохранить продуктивность.</p>
                 </article>
             </section>
             <div class="controller flex">
-                <button class="flex-center"><i class="fa-solid fa-chevron-left"></i>Предыдущий знак</button>
-                <button class="flex-center">Следующий знак<i class="fa-solid fa-chevron-right"></i></button>
+                <button class="flex-center previous-btn"><i class="fa-solid fa-chevron-left"></i>Предыдущий знак</button>
+                <button class="flex-center next-btn">Следующий знак<i class="fa-solid fa-chevron-right"></i></button>
             </div>
         </div>
     </main>
@@ -80,7 +69,7 @@
             <p class="license">© 2024. Права защищены</p>
         </div>
     </footer>
-    <script src="../app.js"></script>
-    <script src="../js/forecasts.js"></script>
+    <script type="module" src="../app.js"></script>
+    <script type="module" src="../js/forecasts.js"></script>
 </body>
 </html>
