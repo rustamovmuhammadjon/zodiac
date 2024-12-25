@@ -20,6 +20,7 @@ function newData() {
 
     nameText.textContent = arrayData.name;
     changeImg.src = arrayData.image;
+    changeImg.alt = arrayData.imgAlt;
     changeText[0].textContent = arrayData.weekInfo[0];
     changeText[1].textContent = arrayData.weekInfo[1];
     
