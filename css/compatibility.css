@@ -1,11 +1,52 @@
 #compatibility {
     flex-direction: column;
     gap: 42px;
+    margin-top: 60px;
 }
 #compatibility > h2 {
     font-weight: 700;
     font-size: 60px;
     color: var(--black);
+}
+#compatibility > div {
+    gap: 24px;
+}
+.select-box {
+    width: 287px;
+    position: relative;
+}
+#select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid var(--black);
+    border-radius: 12px;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 24px 20px 24px 24px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 28.8px;
+    appearance: none;
+    cursor: pointer;
+    gap: 10px;
+}
+.option {
+    text-align: center;
+}
+.options {
+    color: var(--grey);
+    padding-left: 44px;
+    text-align: left;
+}
+.open-close-chevron {
+    font-size: 16px;
+    color: var(--black);
+    position: absolute;
+    top: 30px;
+    right: 15px;
 }
 .calculate-compatibility {
     width: 375px;
@@ -18,4 +59,24 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 28.8px;
+    cursor: pointer;
+}
+.love-info {
+    margin: 60px auto;
+    width: 996px;
+    padding: 24px 48px;
+    border-bottom: 2px solid var(--grey);
+}
+.love-info > p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: justify;
+}
+.compatibility__h3 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: var(--black);
+    margin-top: 60px;
 }
