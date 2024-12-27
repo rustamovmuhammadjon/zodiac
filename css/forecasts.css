@@ -71,4 +71,9 @@
     font-size: 16px;
     line-height: 19.2px;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.controller > button:hover {
+    border-color: var(--black);
+    color: var(--black);
 }

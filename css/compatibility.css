@@ -1,0 +1,21 @@
+#compatibility {
+    flex-direction: column;
+    gap: 42px;
+}
+#compatibility > h2 {
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--black);
+}
+.calculate-compatibility {
+    width: 375px;
+    height: 77px;
+    border: none;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+}
