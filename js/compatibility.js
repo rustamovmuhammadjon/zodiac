@@ -32,7 +32,7 @@ function Birxillik() {
                     resSign2 = e.name;
                     return resSign1, resSign2;
                 };
-                result.textContent = resSign1 + " и " + resSign2;
+                result.textContent = "Совместимость: " + resSign1 + " и " + resSign2;
             });
         } else{
             data.forEach(e => {
@@ -44,7 +44,7 @@ function Birxillik() {
                     resSign2 = e.name;
                     return resSign2;
                 };
-                result.textContent = resSign1 + " и " + resSign2;
+                result.textContent = "Совместимость: " + resSign1 + " и " + resSign2;
             });
         }
     });
