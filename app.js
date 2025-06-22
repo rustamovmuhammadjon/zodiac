@@ -1,3 +1,5 @@
+
+
 let dark_mode = document.querySelector('.dropdown__dark');
 let light_mode = document.querySelector('.dropdown__light');
 let change_img_color = document.querySelectorAll('.change-color');

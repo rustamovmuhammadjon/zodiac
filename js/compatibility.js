@@ -6,6 +6,10 @@ let sign1 = document.querySelector(".sign_1");
 let sign2 = document.querySelector(".sign_2");
 let calculateBtn = document.querySelector(".calculate-compatibility");
 let result = document.querySelector('.result');
+let chartLabel = document.querySelectorAll('.chart-label');
+let chartImg = document.querySelectorAll('.chartImage');
+
+
 
 function getSigns() {
     select.forEach(el => {
@@ -50,3 +54,17 @@ function Birxillik() {
     });
 };
 Birxillik();
+
+
+function graph() {
+    let count = 0;
+    chartImg.forEach(img => {
+        count = count + 1;
+        data.forEach(e => {
+            if (count == e.id) {
+                img.src = e.image;
+            }
+        });
+    });
+}
+graph();
